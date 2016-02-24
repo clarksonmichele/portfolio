@@ -18,14 +18,22 @@
       
   </head>
   <body>
+      <header role="banner">
         <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="about">About</a></li>
-                <li><a href="skills">Skills</a></li>
-                <li><a href="services">Services</a></li>
-                <li><a href="contact">Contact</a></li>
+            <ul class="nav nav-tabs">
+                <li role="presentation" class="active"><a href="/">Home</a></li>
+                <li role="presentation"><a href="about">About</a></li>
+                <li role="presentation"><a href="skills">Skills</a></li>
+                <li role="presentation"><a href="services">Services</a></li>
+                <li role="presentation"><a href="contact">Contact</a></li>
             </ul>   
-        </nav>      
-      
+        </nav>   
+        <section class="container" role="main">  
+            <section class="jumbotron">
+                <img src="images/mLogo.png" title="Starlogotup" alt="logo"/>
+
+                <h1><%= title %></h1>
+            </section>
+    </section>
+      </header>
       
