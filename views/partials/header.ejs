@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/bootstrap-theme.min.css' />
     <link rel='stylesheet' href='/stylesheets/bootstrap.min.css' />      
@@ -18,22 +18,28 @@
       
   </head>
   <body>
-      <header role="banner">
-        <nav>
-            <ul class="nav nav-tabs">
-                <li role="presentation" class="active"><a href="/">Home</a></li>
-                <li role="presentation"><a href="about">About</a></li>
-                <li role="presentation"><a href="skills">Skills</a></li>
-                <li role="presentation"><a href="services">Services</a></li>
-                <li role="presentation"><a href="contact">Contact</a></li>
-            </ul>   
-        </nav>   
-        <section class="container" role="main">  
-            <section class="jumbotron">
-                <img src="images/mLogo.png" title="Starlogotup" alt="logo"/>
-
-                <h1><%= title %></h1>
-            </section>
-    </section>
-      </header>
       
+<div class='content row'>
+    <div class="col-lg-12">
+        <header class="clearfix">
+            
+            <section id="branding">
+                <img src="images/mLogo.png" alt="logo for Clarkson Accessible Design">
+            </section><!--branding-->
+            
+            <section class="navbar">
+                <ul class="nav navbar-nav">
+                    <li role="presentation"><a href="/">Home</a></li>
+                    <li role="presentation"><a href="about">About</a></li>
+                    <li role="presentation"><a href="skills">Skills</a></li>
+                    <li role="presentation"><a href="services">Services</a></li>
+                    <li role="presentation"><a href="contact">Contact</a></li>
+                </ul><!--nav--> 
+            </section><!--navbar-->
+            
+      </header><!--header-->
+    </div><!--column-->
+</div>  <!--content--> 
+      
+      
+ 
