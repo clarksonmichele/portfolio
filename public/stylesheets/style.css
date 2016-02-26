@@ -1,34 +1,134 @@
-body {
-    background-image:
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-    margin-bottom: 60px;
-}
+/* Custom Css - Michele Clarkson COMP2106 */
 
-.jumbotron {
-    background-image: url('../images/computer.png');
-    color: #333;
-    background-attachment: fixed;
-    margin-top: 0px;
-    margin-bottom: 8px;
-}
-
-header {
-}
-
-navbar {
-    float: right;
-}
-
-a {
-  color: #333333;
-}
-
-#contact {
+/*Global Styles*/
+.container main {
+    width: 100%;
     
 }
 
+body {
+    font-size: 100%;
+    line-height: 2em;
+    padding: 3%;
+    font-family: sans-serif;
+    background-color: #;
+}
+
+h1 {
+}
+
+p {
+    font-size: 1.3em;
+    color: #333333;
+}
+
+/*Header*/
+
+
+
+nav ul li {
+    font-size: 2em;
+}
+
+nav ul li a {
+    color: aqua;
+}
+
+.portfolio {
+    /*outline: 2px solid pink;*/
+}
+
+.portfolio .navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.portfolio .navbar-brand>img {
+    padding:  7px 14px;
+}
+
+/*Jumbotron*/
+.jumbotron {
+    background-image: url('../images/jumbotron.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #333;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 18px;
+   
+}
+
+.jumbotron h1 {
+    color: #000;
+    font-family: sans-serif;
+    font-size:48px; 
+}
+
+
+
+ .index {
+    
+}
+
+.biography {
+    font-size: 1.2em;
+    padding: 2%;
+    margin-left: 10%;
+    line-height: 2.5em; 
+}
+
+.about .sidebar {
+    
+    padding: 2%;
+    
+}
+
+.about h1 {
+    
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.about .sidebar img {
+     
+}
+
+ .skills {
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 10px     
+}
+
+.skills .sidebar {
+    color: red;
+}
+
+.form-horizontal  {
+    padding: 5%;
+}
+.form-group label {
+    color: #333;
+    font-size: 1.5em;
+}
+
+fieldset {
+    
+}   
+
+
+#singlebutton {
+    background-color: #d94727;
+}
+
+/*Footer*/
 footer {
-    color: #fff;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: #333;
+    text-align: center;
+}
+footer p {
+    color: #fff;
 }

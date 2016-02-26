@@ -18,7 +18,7 @@ router.get('/about', function(req, res, next) {
 router.get('/skills', function(req, res, next) {
     res.render('skills', {
         about: "skills",
-        title: "skills"
+        title: "Clarkson"
     });
 });
 
