@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
 router.get('/about', function(req, res, next) {
     res.render('about', {
         about: "about",
-        title: "About"
+        title: "About Michele"
     });
 });
 
@@ -18,7 +18,7 @@ router.get('/about', function(req, res, next) {
 router.get('/skills', function(req, res, next) {
     res.render('skills', {
         about: "skills",
-        title: "Clarkson"
+        title: "Skills"
     });
 });
 
@@ -26,7 +26,7 @@ router.get('/skills', function(req, res, next) {
 router.get('/services', function(req, res, next) {
     res.render('services', {
         about: "services",
-        title: "services"
+        title: "Services"
     });
 });
 
@@ -34,7 +34,7 @@ router.get('/services', function(req, res, next) {
 router.get('/contact', function(req, res, next) {
     res.render('contact', {
         about: "contact",
-        title: "contact"
+        title: "Contact Michele"
     });
 });
 
