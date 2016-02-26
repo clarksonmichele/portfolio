@@ -63,11 +63,6 @@ nav ul li a {
     font-family: sans-serif;
     font-size:48px;
     text-align: center;
-    
-}
-
-.jumbotron img {
-    align-items: center;
 }
 
  .home {
@@ -87,13 +82,11 @@ nav ul li a {
 }
 
 .about .sidebar {
-    
     padding: 2%;
     
 }
 
 .about h1 {
-    
     font-size: 2em;
     font-weight: 300;
 }
@@ -108,12 +101,29 @@ nav ul li a {
     margin-bottom: 10px     
 }
 
+.skills .main {
+    padding-left: 15%;
+}
+
+.skills .main img {
+    padding-left: 10px;
+}
+
 .skills .sidebar {
-    color: red;
+    margin-top: 10px;
+}
+
+.services .main {
+    padding-top: 8%;
+    padding-left: 15%;
+}
+
+.services .sidebar {
+    margin-top: 10px;
 }
 
 .form-horizontal  {
-    padding: 5%;
+    margin-left: 2%;
 }
 .form-group label {
     color: #333;
