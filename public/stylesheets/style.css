@@ -22,6 +22,7 @@ p {
     color: #333333;
 }
 
+
 /*Header*/
 
 
@@ -110,27 +111,26 @@ nav ul li a {
 }
 
 .achievements {
-    /*outline: 2px solid pink;*/
+   /*outline: 2px solid pink;*/
     width: 520;
-    padding:10px 0 10px;
+    padding:5px 0 5px;
     margin: 0 auto;
 }
 
 .achievements img {
-   /* outline: 2px solid aqua;*/
+    /*outline: 2px solid aqua;*/
     display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 200px;
+    margin-left: 10px;
+    margin-right: 0;
+    padding-left: 100px;
 }
 
 .achievements p {
-   /* outline: 2px solid red;*/
+    /*outline: 2px solid red;*/
     display: inline-block;
-    margin-left: 100px;
-    margin-right: auto;
-    padding-left: 100px;
-    text-align: left;
+    margin-left: 110px;
+    margin-top: 10px;
+    
 }
 
 .about h1 {
