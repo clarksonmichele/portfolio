@@ -154,16 +154,44 @@ nav ul li a {
 }
 
 .skills .sidebar {
+    margin-top: 40px;
+}
+
+.absolute {
+    margin-top: 40px;
+}
+.absolute p {
+    display: inline-block;
+    margin-left: 20px;
     margin-top: 10px;
+}
+
+.shell {
+    margin-top: 30px;
+}
+
+.shell p {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.shell img  {
+    /*outline: 2px solid aqua;*/
+    padding-right: 10px;
 }
 
 .services .main {
-    padding-top: 8%;
+    padding-top: 30px;
     padding-left: 15%;
 }
 
+.services .two {
+    margin-top: 20px;
+}
+
 .services .sidebar {
-    margin-top: 10px;
+    margin-top: 40px;
 }
 
 .form-horizontal  {
@@ -177,6 +205,7 @@ nav ul li a {
 .contact {
     margin-top: 30px;
 }
+
 fieldset {
     
 }   
